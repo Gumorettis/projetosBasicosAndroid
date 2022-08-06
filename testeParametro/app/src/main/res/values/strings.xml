@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">testeParametro</string>
+    <string name="testando_parametros">Testando parametros</string>
+    <string name="nome">nome</string>
+</resources>

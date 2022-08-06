@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TesteMyAPP</string>
+    <string name="txtInicio">Passagem de parametros</string>
+    <string name="txt2">Nome:</string>
+    <string name="txt3">Seu Nome é:</string>
+    <string name="txtNome"></string>
+    <string name="btnGerar">Gerar</string>
+    <string name="edtNome"></string>
+
+</resources>

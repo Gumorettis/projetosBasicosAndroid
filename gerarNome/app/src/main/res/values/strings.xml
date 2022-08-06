@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gerarNome</string>
+    <string name="seu_nome">Seu Nome é:</string>
+</resources>

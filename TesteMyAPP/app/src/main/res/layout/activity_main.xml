@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt2"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Digite seu Nome"
+            android:inputType="textPersonName"
+            android:text="@string/edtNome"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtInicio"
+            android:layout_alignTop="@+id/txt3"
+            android:layout_marginEnd="-90dp"
+            android:text="@string/txtNome"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnGerar"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="202dp"
+            android:text="@string/btnGerar"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="146dp"
+            android:layout_marginStart="28dp"
+            android:text="@string/txt3"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txt3"
+            android:layout_marginTop="106dp"
+            android:text="@string/txt2"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:text="@string/txtInicio"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

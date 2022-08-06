@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">testeLayouts</string>
+    <string name="txt1"> Calculadora Simples! </string>
+    <string name="txt2">Digite o 1 número: </string>
+    <string name="txt3">Digite o 2 número: </string>
+    <string name="btnMais">Somar </string>
+    <string name="edtNum1"> </string>
+    <string name="edtNum2"> </string>
+    <string name="txtResultado"> Resultado: </string>
+    <string name="btnMenos"> Subtrair </string>
+    <string name="btnMult"> Mult.</string>
+    <string name="btnDiv"> Dividir </string>
+</resources>
